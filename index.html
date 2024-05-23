@@ -4,53 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>邵志成的个人主页</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-        .container {
-            width: 80%;
-            margin: auto;
-            overflow: hidden;
-        }
-        header {
-            background: #35424a;
-            color: #ffffff;
-            padding-top: 30px;
-            min-height: 70px;
-            border-bottom: #e8491d 3px solid;
-        }
-        header a {
-            color: #ffffff;
-            text-decoration: none;
-            text-transform: uppercase;
-            font-size: 16px;
-        }
-        header ul {
-            padding: 0;
-            list-style: none;
-        }
-        header li {
-            display: inline;
-            padding: 0 20px 0 20px;
-        }
-        footer {
-            background: #35424a;
-            color: #ffffff;
-            text-align: center;
-            padding: 30px 0;
-            margin-top: 30px;
-        }
-        .main-content {
-            padding: 20px;
-            background: #ffffff;
-            margin-top: 30px;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
@@ -68,48 +22,60 @@
     </header>
 
     <div class="container">
-        <section id="about" class="main-content">
-            <h2>关于我</h2>
-            <p>您好！我是邵志成，目前就读于淮北师范大学统计学专业。对数据分析、机器学习和算法充满热情，擅长Python、MATLAB、SPSS、R等编程工具，并熟悉Linux系统和数据库操作。</p>
-        </section>
-
-        <section id="projects" class="main-content">
-            <h2>项目经验</h2>
-            <ul>
-                <li>
-                    <h3>网球比赛中的动能分析与预测模型 (MCM)</h3>
-                    <p>使用LSTM和GNN技术开发预测模型，团队负责人，主要负责数据预处理和模型实现。</p>
-                </li>
-                <li>
-                    <h3>蔬菜商品的自动定价与补货决策模型 (CUMCM)</h3>
-                    <p>开发自动定价与补货模型，使用SGD实现回归模型，并通过GA解决优化问题。</p>
-                </li>
-                <li>
-                    <h3>电竞在亚运会中的市场影响与传播效果分析 ("CP Cup")</h3>
-                    <p>组织团队进行市场调研和数据分析，使用多种算法进行数据处理和结果分析。</p>
-                </li>
-                <li>
-                    <h3>电动车实时监控系统</h3>
-                    <p>使用CNN开发图像数据分析模型，并使用CSS和HTML搭建前端页面。</p>
-                </li>
+        <aside>
+            <img src="path/to/your/photo.jpg" alt="邵志成的照片">
+            <h2>邵志成</h2>
+            <p>淮北师范大学统计学专业</p>
+            <ul class="contact-info">
+                <li>邮箱: shaozhicheng0505@gmail.com</li>
+                <li>电话: 19810978068</li>
             </ul>
-        </section>
+        </aside>
 
-        <section id="awards" class="main-content">
-            <h2>荣誉与奖励</h2>
-            <ul>
-                <li>美国大学生数学建模竞赛 (MCM) 荣誉奖</li>
-                <li>全国大学生数学建模竞赛 (CUMCM) 安徽省一等奖</li>
-                <li>"CP Cup" 全国大学生市场调查与分析大赛 安徽省二等奖</li>
-                <li>第九届"互联网+"大学生创新创业大赛 校级二等奖</li>
-            </ul>
-        </section>
+        <main>
+            <section id="about">
+                <h2>关于我</h2>
+                <p>您好！我是邵志成，目前就读于淮北师范大学统计学专业。对数据分析、机器学习和算法充满热情，擅长Python、MATLAB、SPSS、R等编程工具，并熟悉Linux系统和数据库操作。</p>
+            </section>
 
-        <section id="contact" class="main-content">
-            <h2>联系方式</h2>
-            <p>邮箱: shaozhicheng0505@gmail.com</p>
-            <p>电话: 19810978068</p>
-        </section>
+            <section id="projects">
+                <h2>项目经验</h2>
+                <ul>
+                    <li>
+                        <h3>网球比赛中的动能分析与预测模型 (MCM)</h3>
+                        <p>使用LSTM和GNN技术开发预测模型，团队负责人，主要负责数据预处理和模型实现。</p>
+                    </li>
+                    <li>
+                        <h3>蔬菜商品的自动定价与补货决策模型 (CUMCM)</h3>
+                        <p>开发自动定价与补货模型，使用SGD实现回归模型，并通过GA解决优化问题。</p>
+                    </li>
+                    <li>
+                        <h3>电竞在亚运会中的市场影响与传播效果分析 ("CP Cup")</h3>
+                        <p>组织团队进行市场调研和数据分析，使用多种算法进行数据处理和结果分析。</p>
+                    </li>
+                    <li>
+                        <h3>电动车实时监控系统</h3>
+                        <p>使用CNN开发图像数据分析模型，并使用CSS和HTML搭建前端页面。</p>
+                    </li>
+                </ul>
+            </section>
+
+            <section id="awards">
+                <h2>荣誉与奖励</h2>
+                <ul>
+                    <li>美国大学生数学建模竞赛 (MCM) 荣誉奖</li>
+                    <li>全国大学生数学建模竞赛 (CUMCM) 安徽省一等奖</li>
+                    <li>"CP Cup" 全国大学生市场调查与分析大赛 安徽省二等奖</li>
+                    <li>第九届"互联网+"大学生创新创业大赛 校级二等奖</li>
+                </ul>
+            </section>
+
+            <section id="contact">
+                <h2>联系方式</h2>
+                <p>邮箱: shaozhicheng0505@gmail.com</p>
+                <p>电话: 19810978068</p>
+            </section>
+        </main>
     </div>
 
     <footer>
@@ -117,3 +83,4 @@
     </footer>
 </body>
 </html>
+
